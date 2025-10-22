@@ -13,7 +13,10 @@ function reverseString(inputstring) {
 
 // example usecases
 
-console.log(reverseString("hello")); // output : olleh
-console.log(reverseString("recursion")); // output : noisrucer
-console.log(reverseString("a")); // output : a
-console.log(reverseString("")); // output : 
+console.log(reverseString("hello"));       // Expected: "olleh"
+console.log(reverseString("JavaScript"));  // Expected: "tpircSavaJ"
+console.log(reverseString("a"));           // Expected: "a"
+console.log(reverseString(""));            // Expected: ""
+console.log(reverseString("12345"));       // Expected: "54321"
+console.log(reverseString("racecar"));     // Expected: "racecar" (palindrome)
+console.log(reverseString("!@#$$#@!"));    // Expected: "!@#$$#@!"
